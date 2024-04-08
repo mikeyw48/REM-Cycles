@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REM Sleep</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="main">
+        <h1>Having trouble sleeping?</h1>
+        <p class="caption">
+            Waking up during the deep sleep or REM stages of your cycle can leave you fatigued all day. 
+            <u>The best time to wake up is when you are in light sleep.</u>
+        </p>
+    </div>
+    <div class="secondary">
+        <div class="message">The length of a REM (Rapid Eye Movement) cycle, also known as a sleep cycle, can vary from person to person, but on average, it lasts about <b>90 minutes.</b></div>
+        <div class="landing">
+            <div class="div1"></div>
+            <div class="dupe hidden" id="secondScreen"></div>
+            <div class="div2" id="initialScreen">
+                <div class="div4">REM Cycle Calculator</div>
+                    <div class="div5">
+                        <div class="timeSlept">
+                            <label>Wake Up</label>
+                            <select id="select" class="select">
+                                <option value="6">6AM</option>
+                                <option value="7">7AM</option>
+                                <option value="8">8AM</option>
+                                <option value="9">9AM</option>
+                                <option value="10">10AM</option>
+                                <option value="11">11AM</option>
+                            </select>
+                        </div>
+                        <div class="hoursSlept">
+                            <label>Approx. Hours of Sleep</label>
+                            <select id="hourSelector" class="hourSelector">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                <div class="div6">
+                    <button class="button" id="button">Press Me</button>
+                </div>
+            </div>
+            <div class="div3" id="div3">
+                <span class="material-symbols-outlined" id="exitButton">
+                    close
+                </span>
+            </div>
+        </div>
+        <div class="message2">If you regularly need more than 8 or 9 hours of sleep per night to feel rested, it might be a sign of an sleep or medical problem. -- Some Doctor</div>
+    </div>
+
+    <div id="errorDiv" class="errorDiv">
+        <div class="errorMessage" class="errorMessage"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

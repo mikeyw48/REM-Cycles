@@ -1,0 +1,21 @@
+90 minute cycles for REM sleep
+
+
+if the wakeup time is EVEN then the REM cycle can be  
+
+
+
+12 AM DOne
+1AM
+
+
+
+
+Add on the side of the box a little cute box that explains that sleeping for more than 10 hours can be dangerous 
+and the an average Rem cycle is around 90 minutes
+
+
+
+we need to figure out a better function for this -- it is too confusing right now to deal with
+
+>> do a side quest and try to figure it out seperate to what is presently on the script.js
